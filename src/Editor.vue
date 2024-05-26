@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full h-full">
     <bubble-menu
         :editor="editor"
         :tippy-options="{ duration: 100, animation: 'scale-subtle' }"

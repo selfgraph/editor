@@ -17981,7 +17981,7 @@ function RO(t) {
     e.reduce((n, r) => al(n, r, ""), {})
   );
 }
-const OO = RO(), [gm, Rw] = Wl("ConfigProvider");
+const OO = RO(), [gm, Ow] = Wl("ConfigProvider");
 let NO = "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict", yO = (t = 21) => {
   let e = "", n = t;
   for (; n--; )
@@ -18980,7 +18980,7 @@ const Rm = /* @__PURE__ */ me({
       _: 3
     }, 16, ["id"]));
   }
-}), [Nm, Ow] = Wl("CollectionProvider");
+}), [Nm, Nw] = Wl("CollectionProvider");
 me({
   name: "CollectionSlot",
   setup(t, { slots: e }) {
@@ -68138,7 +68138,7 @@ const Vu = /* @__PURE__ */ me({
       Ne(n.$slots, "default")
     ], 2));
   }
-}), Nx = { class: "flex w-fit" }, yx = { class: "flex items-center space-x-2" }, vx = { class: "grid flex-1 gap-2" }, Ax = { class: "flex items-center space-x-2" }, Ix = { class: "grid flex-1 gap-2" }, Iw = {
+}), Nx = { class: "w-full h-full" }, yx = { class: "flex w-fit" }, vx = { class: "flex items-center space-x-2" }, Ax = { class: "grid flex-1 gap-2" }, Ix = { class: "flex items-center space-x-2" }, Dx = { class: "grid flex-1 gap-2" }, Dw = {
   __name: "Editor",
   props: /* @__PURE__ */ Cc({
     initialContent: String,
@@ -68229,7 +68229,7 @@ const Vu = /* @__PURE__ */ me({
       }), n("update:html", r.value.getHTML()), n("update:json", r.value.getJSON()), n("update:text", r.value.getText());
     }), Bi(() => {
       r.value.destroy();
-    }), (m, f) => (Ee(), Kr("div", null, [
+    }), (m, f) => (Ee(), Kr("div", Nx, [
       r.value && !O(d) ? (Ee(), Re(O(vC), {
         key: 0,
         editor: r.value,
@@ -68240,7 +68240,7 @@ const Vu = /* @__PURE__ */ me({
             default: Y(() => [
               $(O(tu), { class: "overflow-hidden overflow-x-auto scrollbar-hide" }, {
                 default: Y(() => [
-                  Sn("div", Nx, [
+                  Sn("div", yx, [
                     $(O(Ue), {
                       variant: "ghost",
                       class: Be(["m-1 px-2", { "bg-primary text-primary-foreground": r.value.isActive("bold") }]),
@@ -68307,8 +68307,8 @@ const Vu = /* @__PURE__ */ me({
                               ]),
                               _: 1
                             }),
-                            Sn("div", yx, [
-                              Sn("div", vx, [
+                            Sn("div", vx, [
+                              Sn("div", Ax, [
                                 $(O(Vu), {
                                   placeholder: "https://example.com",
                                   modelValue: i.value,
@@ -68489,8 +68489,8 @@ const Vu = /* @__PURE__ */ me({
                             ]),
                             _: 1
                           }),
-                          Sn("div", Ax, [
-                            Sn("div", Ix, [
+                          Sn("div", Ix, [
+                            Sn("div", Dx, [
                               $(O(Vu), {
                                 type: "file",
                                 onChange: f[12] || (f[12] = (g) => a(g))
@@ -68598,5 +68598,5 @@ const Vu = /* @__PURE__ */ me({
   }
 };
 export {
-  Iw as Editor
+  Dw as Editor
 };
