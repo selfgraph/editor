@@ -10,13 +10,14 @@
     "preview": "vite preview",
     "lint": "eslint . --fix"
   },
-  "main": "./dist/editor.umd.js",
+  "main": "./dist/editor.mjs",
   "module": "./dist/editor.mjs",
-  "unpkg": "./dist/editor.umd.js",
-  "jsdelivr": "./dist/editor.umd.js",
+  "unpkg": "./dist/editor.mjs",
+  "jsdelivr": "./dist/editor.mjs",
   "files": [
     "dist/*"
   ],
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "@tiptap/extension-bubble-menu": "^2.3.0",
     "@tiptap/extension-code-block-lowlight": "^2.3.1",
