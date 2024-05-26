@@ -18,7 +18,7 @@
     "dist/*",
     "types/*"
   ],
-  "types": "./types/Editor.vue.d.ts",
+  "types": "./types/index.d.ts",
   "dependencies": {
     "@tiptap/extension-bubble-menu": "^2.3.0",
     "@tiptap/extension-code-block-lowlight": "^2.3.1",
