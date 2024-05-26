@@ -176,6 +176,8 @@ import {Input} from '@/components/ui/input/index.ts';
 import {Code as CodeInline} from '@tiptap/extension-code';
 import {Image} from '@tiptap/extension-image';
 
+import '@/styles/global.css';
+
 import {
   Dialog,
   DialogContent,
