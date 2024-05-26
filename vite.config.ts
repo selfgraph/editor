@@ -22,7 +22,6 @@ export default defineConfig({
       entry: path.resolve(__dirname, './src/index.ts'),
       name: 'Editor',
       fileName: "editor",
-      formats: ['es'],
     },
     rollupOptions: {
       external: ['vue'],

@@ -10,10 +10,10 @@
     "preview": "vite preview",
     "lint": "eslint . --fix"
   },
-  "main": "./dist/editor.mjs",
+  "main": "./dist/editor.umd.js",
   "module": "./dist/editor.mjs",
-  "unpkg": "./dist/editor.mjs",
-  "jsdelivr": "./dist/editor.mjs",
+  "unpkg": "./dist/editor.umd.js",
+  "jsdelivr": "./dist/editor.umd.js",
   "files": [
     "dist/*",
     "types/*"
