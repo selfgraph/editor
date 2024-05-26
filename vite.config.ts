@@ -20,8 +20,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, './src/index.ts'),
-      name: 'Editor',
-      fileName: "editor",
+      name: 'editor',
+      formats: ["es", "umd"],
+      fileName: (format) => `editor.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],

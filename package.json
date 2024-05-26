@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A full-featured, user-friendly content editor for Vue.js 3",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "devHost": "vite --host",
@@ -11,14 +12,12 @@
     "lint": "eslint . --fix"
   },
   "main": "./dist/editor.umd.js",
-  "module": "./dist/editor.mjs",
-  "unpkg": "./dist/editor.umd.js",
-  "jsdelivr": "./dist/editor.umd.js",
+  "module": "./dist/editor.es.js",
+  "types": "./types/index.d.ts",
   "files": [
     "dist/*",
     "types/*"
   ],
-  "types": "./types/index.d.ts",
   "dependencies": {
     "@tiptap/extension-bubble-menu": "^2.3.0",
     "@tiptap/extension-code-block-lowlight": "^2.3.1",
