@@ -176,6 +176,8 @@ import {Input} from '@/components/ui/input/index.ts';
 import {Code as CodeInline} from '@tiptap/extension-code';
 import {Image} from '@tiptap/extension-image';
 
+import 'tippy.js/animations/scale-subtle.css';
+import 'highlight.js/styles/atom-one-dark.css';
 import '@/styles/global.css';
 
 import {
