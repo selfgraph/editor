@@ -15,9 +15,10 @@
   "unpkg": "./dist/editor.mjs",
   "jsdelivr": "./dist/editor.mjs",
   "files": [
-    "dist/*"
+    "dist/*",
+    "types/*"
   ],
-  "types": "./dist/index.d.ts",
+  "types": "./types/Editor.vue.d.ts",
   "dependencies": {
     "@tiptap/extension-bubble-menu": "^2.3.0",
     "@tiptap/extension-code-block-lowlight": "^2.3.1",
@@ -54,7 +55,6 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.9.1",
     "vue-tsc": "^2.0.6"
   }
 }

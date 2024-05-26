@@ -1,7 +1,6 @@
 import path from "path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import dts from 'vite-plugin-dts';
 
 import tailwind from "tailwindcss";
 import autoprefixer from "autoprefixer";
@@ -12,7 +11,7 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()],
     },
   },
-  plugins: [vue(), dts({ rollupTypes: true })],
+  plugins: [vue()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
