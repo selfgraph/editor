@@ -68223,7 +68223,7 @@ const Vu = /* @__PURE__ */ me({
         },
         editorProps: {
           attributes: {
-            class: "prose dark:prose-invert prose-sm sm:prose-base lg:prose-lg xl:prose-xl m-5 focus:outline-none prose-img:rounded-xl prose-img:mr-auto prose-img:ml-auto"
+            class: "prose dark:prose-invert prose-sm sm:prose-base lg:prose-lg xl:prose-xl focus:outline-none prose-img:rounded-xl prose-img:mr-auto prose-img:ml-auto"
           }
         }
       }), n("update:html", r.value.getHTML()), n("update:json", r.value.getJSON()), n("update:text", r.value.getText());

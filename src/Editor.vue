@@ -293,7 +293,7 @@ onMounted(() => {
     },
     editorProps: {
       attributes: {
-        class: 'prose dark:prose-invert prose-sm sm:prose-base lg:prose-lg xl:prose-xl m-5 focus:outline-none prose-img:rounded-xl prose-img:mr-auto prose-img:ml-auto',
+        class: 'prose dark:prose-invert prose-sm sm:prose-base lg:prose-lg xl:prose-xl focus:outline-none prose-img:rounded-xl prose-img:mr-auto prose-img:ml-auto',
       }
     }
   });
