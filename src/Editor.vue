@@ -293,7 +293,7 @@ onMounted(() => {
     },
     editorProps: {
       attributes: {
-        class: 'prose dark:prose-invert prose-sm sm:prose-base lg:prose-lg xl:prose-xl focus:outline-none',
+        class: 'prose dark:prose-invert lg:prose-lg focus:outline-none prose-img:rounded-xl',
       }
     }
   });
